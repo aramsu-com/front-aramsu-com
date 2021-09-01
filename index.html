@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en;auto" cache="no">
+<head>
+    <title>Aramsu (ALPHA)</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge;ie=10;chrome=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:url" content="https://www.aramean.institute"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Aramean Institute"/>
+    <meta property="og:description" content="The Aramean Institute is a worldwide multi-institute."/>
+    <meta property="og:image" content="https://www.aramean.institute/assets/img/logo_fb.png"/>
+    <base env="local:/;prod:/">
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+    <link type="text/css" href="https://3el.github.io/front/dist/front.css" rel="stylesheet">
+    <!--<link type="text/css" href="http://localhost:8888/dist/front.css" rel="stylesheet">-->
+    <link type="text/css" href="https://3el.github.io/front/dist/design/front/theme/front.css" rel="stylesheet">
+    <script src="https://3el.github.io/front/dist/front.js" lib="popup;nav;json;globalize"></script>
+    <!--<script src="http://localhost:8888/dist/front.js" lib="popup;nav;json;globalize"></script>-->
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-4Z8JXR2XX0" async></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-4Z8JXR2XX0')</script>
+</head>
+<body class="bg">
+    <nav class="topbar bcwhite shade1 h4 lg_fs0- gap2- sred-" selective="true">
+        <a href="#menu" class="button xl_du bc0 red p0 br0 shade1 fs08"><i class="icon32">≡</i></a>
+        <figure><a class="b0" href="" target="_self"><img src="assets/img/logo.png"></a></figure>
+        <a class="xl_dn" href="research/ethnology" globalize="ethnology">ABOUT ARAMEANS</a>
+        <a class="xl_dn" href="collection/statistics" globalize="statistics">ABOUT ARAMSU</a>
+        <a class="xl_dn" href="development/technology" globalize="technology">Technology</a>
+        <a class="z09 bcred lg_dn h50 fr br1 button ml1" href="signup.html" globalize="sign_up">Sign up</a>
+
+        <div id="menu" class="modal menu bcred br0">
+            <nav class="topbar flc0 shade h4_5 bcblack01 sblack-">
+                <a href="#" class="button xl_du bc0 yellow- p0 br0 shade1"><i class="icon32">&#10060;</i></a>
+                <figure><img src="assets/img/logo_white.png"></figure>
+            </nav>
+            <section class="white-">
+                <nav class="sidebar pt2 pb2 w100 fs13 gaph2- red- bcred pointer afr">
+                    <a href="research/ethnology" key="2" globalize="ethnology">Ethnology</a>
+                    <hr class="p0">
+                    <a href="collection/statistics" key="1" globalize="statistics">Statistics</a>
+                    <hr class="p0">
+                    <a href="development/technology" key="3" globalize="technology">Technology</a>
+                    <hr class="p0">
+                    <a href="development/arts" key="3" globalize="arts">Arts</a>
+                    <hr class="p0">
+                </nav>
+                <nav class="sidebar gaph2-">
+                    <a href="contribute/" key="2" globalize="contribute">Contribute</a>
+                    <a class="pr2" href="contact/" key="3" globalize="contact">Contact</a>
+                    <a class="pr2" href="faq/" key="3" globalize="faq">FAQ</a>
+                    <a class="pr2" href="about/" key="3" globalize="about">About</a>
+                </nav>
+            </section>
+        </div>
+    </nav>
+    <aside class="xl_dn"></aside>
+    <main class="flc" include="login.html"></main>
+    <aside class="lg_dn"></aside>
+    <footer>
+        <div eventlistener="offline" eventaction="dom.create('div', ['id=offline', 'className=alert pf b1 l1 bcred white snack', 'innerHTML=<i class=icon>⚠</i> Connection lost...'], 'footer')"></div>
+        <div eventlistener="online" eventaction="dom.hide('offline')"></div>
+    </footer>
+</body>
+</html>

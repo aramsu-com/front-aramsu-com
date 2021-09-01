@@ -1,0 +1,16 @@
+<script src="https://3el.github.io/front/dist/front.js" template="index"></script>
+
+<title globalize="sign_up">Sign Up</title>
+
+<section class="wc_xl flc">
+    <h4>Aramsu (Test version)</h4>
+    <form class="pauto" method="post" reset="true" 
+        datasource="https://gqfktgknxmguhxgkajat.supabase.co/auth/v1/signup" 
+        dataheader="apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyMDc2MTg0NCwiZXhwIjoxOTM2MzM3ODQ0fQ.xEa_GuNypFdHSdQVLCd0beoL_v8jhWKjSTypX6kn-sg"
+        onerror="alert('error')"
+        ondone="nav('home.html')">
+        <input class="phdark" type="text" name="email" placeholder="E-mail">
+        <input type="password" name="password">
+        <input class="button bcred yellow br025" type="submit" value="Sign up">
+    </form>
+</section>
