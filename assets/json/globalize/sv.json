@@ -4,6 +4,7 @@
     "direction": "ltr",
     "translations":
         {
-            "settings": "Inställningar"
+            "settings": "Inställningar",
+            "page_register_agree_terms": "Jag godkänner <a href=\"#\" class=\"tdu\">villkoren</a>."
         }
 }
