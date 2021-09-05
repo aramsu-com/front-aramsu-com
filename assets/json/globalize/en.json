@@ -5,6 +5,6 @@
     "translations":
         {
             "settings": "Settings",
-            "page_register_agree_terms": "I agree to the <a href=\"#\" class=\"tdu\">terms and conditions</a>.",
+            "page_register_agree_terms": "I agree to the <a href=\"#\" class=\"tdu yellow\">terms and conditions</a>.",
         }
 }

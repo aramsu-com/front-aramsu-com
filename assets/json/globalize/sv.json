@@ -5,6 +5,6 @@
     "translations":
         {
             "settings": "Inställningar",
-            "page_register_agree_terms": "Jag godkänner <a href=\"#\" class=\"tdu\">villkoren</a>."
+            "page_register_agree_terms": "Jag godkänner <a href=\"#\" class=\"tdu yellow\">villkoren</a>."
         }
 }
