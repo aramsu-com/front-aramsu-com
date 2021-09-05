@@ -1,18 +1,37 @@
-<section class="wc_xl flc">
-    
-    <div class="alert p2 bcblack white">
-        <img class="fr pl1" width="96" src="http://localhost:8888/assets/img/icon_black.svg">
-        <h4>Experimental version</h4>
-        <h7>Front is the newest way to code! A new revolution in the world of development!</h7>
-    </div>
+<section class="wc_xl">
 
-    <form class="gap2 mt2" method="post" reset="true" 
-        datasource="https://gqfktgknxmguhxgkajat.supabase.co/auth/v1/token?grant_type=password" 
-        dataheader="apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyMDc2MTg0NCwiZXhwIjoxOTM2MzM3ODQ0fQ.xEa_GuNypFdHSdQVLCd0beoL_v8jhWKjSTypX6kn-sg"
-        onerror="alert('error')"
-        ondone="nav('home.html')">
-        <input type="text" name="email">
-        <input type="password" name="password">
-        <input class="button bcred yellow br025" type="submit" value="Login">
-    </form>
+    <section class="h100">
+        <div class="grid w80w flc white">
+    
+            <div class="aside lg_tac pauto tshade025 pr5">
+                <h1 globalize="title1" class="fs20"><b class="yellow">Aramean</b> social networking service</h1>
+                <p globalize="title1_sub" class="mt1 mb2 z14">Connect with <b class="ivory">Arameans</b> in diaspora who share similar interests, activities, backgrounds, or real-life connections using or forming social networks.</p>
+            </div>
+    
+            <div class="aside shade1 bos8 bow6 bocred br1 bcred br025 pauto lg_gan tac">
+                <!--<div class="gap1- lg_gap0- mt2 lg_w100p- xm_z12">
+                    <a target="_blank" href="dist/front.js" class="button" globalize="download" download="">Facebook</a><a href="documentation" class="button bcwhite black black_h xm_w100p mb1" globalize="get_started">Google</a><a href="documentation" class="button bcwhite black black_h xm_w100p mb1" globalize="get_started">Twitter</a>
+                </div>-->
+                <img src="assets/img/syriac_aramean_ethnic_flag.svg" class="w15">
+                <hr class="bcblack01">
+                <form class="gap" method="post" reset="true" 
+                    datasource="https://gqfktgknxmguhxgkajat.supabase.co/auth/v1/token?grant_type=password" 
+                    dataheader="apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyMDc2MTg0NCwiZXhwIjoxOTM2MzM3ODQ0fQ.xEa_GuNypFdHSdQVLCd0beoL_v8jhWKjSTypX6kn-sg"
+                    onerror="alert('error')"
+                    ondone="nav('home.html')">
+                    <!--<label class="fs80 mb0 ttu">Username</label>-->
+                    <input class="bcwhite05 z09 bos8 shade0 bw1 bocblack01 br2 white mr0 mb1" type="text" name="email" placeholder="E-mail">
+                    <!--<label class="fs80 mb0 ttu">Password</label>-->
+                    <input class="bcblack02 z09 bos8 shade0 bw1 bocblack01 br2 mr0 white" type="password" name="password" placeholder="Password">
+                    <input class="button bcred bos8 bw1 bcyellow red fwb shade1 br2 mt1" type="submit" value="Login">
+                </form>
+                <hr>
+                <p class="w100 df fdc">
+                    <hr class="bcblack01">
+                </p>
+                
+            </div>
+    
+        </div>
+    </section>
 </section>
