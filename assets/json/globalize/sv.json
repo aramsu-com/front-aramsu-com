@@ -5,6 +5,7 @@
     "translations":
         {
             "settings": "Inställningar",
+            "page_register_agree_aramean": "Jag är araméer och jag erkänner min arameiska identitet.",
             "page_register_agree_terms": "Jag godkänner <a href=\"#\" class=\"tdu yellow\">villkoren</a>."
         }
 }

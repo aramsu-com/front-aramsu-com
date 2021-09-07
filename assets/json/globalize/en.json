@@ -5,6 +5,7 @@
     "translations":
         {
             "settings": "Settings",
-            "page_register_agree_terms": "I agree to the <a href=\"#\" class=\"tdu yellow\">terms and conditions</a>.",
+            "page_register_agree_aramean": "I am Aramean and I acknowledge my Aramean identity.",
+            "page_register_agree_terms": "I agree to the <a href=\"#\" class=\"tdu yellow\">terms and conditions</a>."
         }
 }
