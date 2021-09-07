@@ -6,6 +6,7 @@
     <section class="aside shade1 bos8 bow6 bocred br1 bcred br025 pauto white lg_gan tac">
         <h1 class="yellow">Sign up</h1>
         <h5>Join Aramsu now. It's free and only available to you as an Aramean.</h5>
+        <hr class="bcblack01 mt1">
         <form id="signup" class="gap2 mt2" method="post" reset="true" 
             datasource="https://gqfktgknxmguhxgkajat.supabase.co/auth/v1/signup" 
             dataheader="apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyMDc2MTg0NCwiZXhwIjoxOTM2MzM3ODQ0fQ.xEa_GuNypFdHSdQVLCd0beoL_v8jhWKjSTypX6kn-sg"
@@ -13,14 +14,15 @@
             ondone="nav('home.html')">
             <input class="phdark" type="text" name="email" placeholder="E-mail" required>
             <input class="phdark" type="password" name="password" placeholder="Password" required>
-            <hr>
+            <input class="phdark" type="password" placeholder="Password again" required>
             <div class="group db" globalize="page_register_agree_aramean" required>
                 <input type="checkbox" value="1" class="mr05">.
             </div>
             <div class="group db" globalize="page_register_agree_terms" required>
                 <input name="terms" type="checkbox" value="1" class="mr05">.
             </div>
-            <input class="button bcred yellow br025" type="submit" value="Sign up">
+            <hr class="bcblack01">
+            <input class="button bcred yellow br025 mt1" type="submit" value="Sign up">
         </form>
     </section>
 </section>
