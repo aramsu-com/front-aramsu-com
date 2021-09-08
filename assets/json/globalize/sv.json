@@ -5,6 +5,8 @@
     "translations":
         {
             "settings": "Inställningar",
+            "sign_up": "Gå med",
+            "page_register_subtitle": "Gå med Aramsu nu. Det är gratis och endast tillgängligt för dig som araméer.",
             "page_register_agree_aramean": "Jag är araméer och jag erkänner min arameiska identitet.",
             "page_register_agree_terms": "Jag godkänner <a href=\"#\" class=\"tdu yellow\">villkoren</a>."
         }
