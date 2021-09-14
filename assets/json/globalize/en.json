@@ -4,8 +4,10 @@
     "direction": "ltr",
     "translations":
         {
+            "login": "Login",
             "settings": "Settings",
             "sign_up": "Sign up",
+            "password": "Password",
             "page_register_subtitle": "Join Aramsu now. It's free and only available to you as an Aramean.",
             "page_register_agree_aramean": "I am Aramean and I acknowledge my Aramean identity.",
             "page_register_agree_terms": "I agree to the <a href=\"#\" class=\"tdu yellow\">terms and conditions</a>."
